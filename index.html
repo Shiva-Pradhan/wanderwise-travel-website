@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WanderWise Travel</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h2>WanderWise</h2>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#destinations">Destinations</a></li>
+<li><a href="#packages">Packages</a></li>
+<li><a href="#contactForm">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero" id="home">
+<div>
+<h1>Explore the World</h1>
+<p>Your journey begins here</p>
+<button class="btn" onclick="location.href='#packages'">Book Now</button>
+</div>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+
+<div class="about-text-box">
+<p style="text-align:center;max-width:750px;margin:auto">
+WanderWise is a premium travel agency dedicated to creating unforgettable travel experiences across the globe. 
+From luxurious getaways to budget-friendly adventures, we handle everything - so you can focus on enjoying your journey.
+</p>
+</div>
+
+<div class="grid" style="margin-top:30px">
+
+<div class="card">
+<div class="card-content">
+<h3>🌍 Our Mission</h3>
+<p>To make travel easy, affordable, and memorable for everyone by providing seamless planning and exceptional service.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<h3>🚀 Why Choose Us</h3>
+<p>Personalized travel plans, best price guarantee, and 24/7 support for a stress-free journey.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<h3>💼 Our Services</h3>
+<p>Complete travel solutions including flights, hotels, tours, and custom packages.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-content">
+<h3>🤝 Trusted by Travelers</h3>
+<p>Thousands of happy customers trust us for safe and well-organized travel worldwide.</p>
+</div>
+</div>
+</div>
+
+<h2 style="margin-top:40px">Our Facilities</h2>
+
+<div class="grid" style="margin-top:20px">
+
+<div class="card">
+<div class="card-content">🏨 Hotel Booking</div>
+</div>
+
+<div class="card">
+<div class="card-content">🚗 Car Rentals</div>
+</div>
+
+<div class="card">
+<div class="card-content">✈️ Flight Booking</div>
+</div>
+
+<div class="card">
+<div class="card-content">📞 24/7 Support</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="destinations">
+<h2>Destinations</h2>
+
+<div class="grid">
+<div class="card"><img src="images/bali.jpg"><div class="card-content">Bali</div></div>
+<div class="card"><img src="images/paris.jpg"><div class="card-content">Paris</div></div>
+<div class="card"><img src="images/japan2.webp"><div class="card-content">Japan</div></div>
+<div class="card"><img src="images/iceland.jpg"><div class="card-content">Iceland</div></div>
+<div class="card"><img src="images/swizerland.jpg"><div class="card-content">Switzerland</div></div>
+<div class="card"><img src="images/Thailand.webp"><div class="card-content">Thailand</div></div>
+<div class="card"><img src="images/malaysia.jpg"><div class="card-content">Malaysia</div></div>
+<div class="card"><img src="images/newyork.jpg"><div class="card-content">New York</div></div>
+</div>
+
+</section>
+
+<section id="packages">
+<h2>Packages</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="images/bali.jpg">
+<div class="card-content">
+<h3>Bali Trip</h3>
+<p>₹30,000 | 5 Days</p>
+<button class="btn" onclick="goToContact('Bali',30000)">Book Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/paris.jpg">
+<div class="card-content">
+<h3>Paris Tour</h3>
+<p>₹80,000 | 7 Days</p>
+<button class="btn" onclick="goToContact('Paris',80000)">Book Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/japan2.webp">
+<div class="card-content">
+<h3>Japan</h3>
+<p>₹1,00,000 | 8 Days</p>
+<button class="btn" onclick="goToContact('Japan',100000)">Book Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/swizerland2.avif">
+<div class="card-content">
+<h3>Switzerland Tour</h3>
+<p>₹1,20,000 | 7 Days</p>
+<button class="btn" onclick="goToContact('Switzerland',120000)">Book Now</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="reviews-section">
+<h2>Travelers Love Us</h2>
+
+<div class="review-container">
+
+<div class="review-card">
+<div class="stars">★★★★★</div>
+<p class="review-text">The Bali package was beyond anything I imagined. Everything was perfectly organized.</p>
+<div class="reviewer">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<div>
+<div class="reviewer-name">Aarav Mehta</div>
+<div class="review-place">Traveled to Bali</div>
+</div>
+</div>
+</div>
+
+<div class="review-card">
+<div class="stars">★★★★★</div>
+<p class="review-text">Patagonia was a dream. The guides were amazing and the journey felt safe.</p>
+<div class="reviewer">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<div>
+<div class="reviewer-name">Priya Nair</div>
+<div class="review-place">Traveled to Patagonia</div>
+</div>
+</div>
+</div>
+
+<div class="review-card">
+<div class="stars">★★★★★</div>
+<p class="review-text">Japan trip was emotional and beautiful. Perfect planning and execution.</p>
+<div class="reviewer">
+<img src="https://randomuser.me/api/portraits/men/45.jpg">
+<div>
+<div class="reviewer-name">Rohan Verma</div>
+<div class="review-place">Traveled to Japan</div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Book Your Trip</h2>
+
+<form onsubmit="return submitForm()">
+<input type="text" id="name" placeholder="Your Name" required>
+<input type="email" id="email" placeholder="Email" required>
+<input type="tel" id="phone" placeholder="Phone Number" required>
+<select id="destination" required>
+    <option value="">-- Select Destination --</option>
+    <option value="Bali" data-price="30000">Bali - ₹30,000 (5 Days)</option>
+    <option value="Paris" data-price="80000">Paris - ₹80,000 (7 Days)</option>
+    <option value="Japan" data-price="100000">Japan - ₹1,00,000 (8 Days)</option>
+    <option value="Switzerland" data-price="120000">Switzerland - ₹1,20,000 (7 Days)</option>
+</select>
+<input type="date" id="travelDate" required>
+<input type="number" id="guests" placeholder="Guests" required>
+<p id="priceDisplay">Total Price: ₹0</p>
+<button class="btn">Confirm Booking</button>
+</form>
+
+</section>
+
+<section id="contactForm">
+<h2>Contact Us</h2>
+
+<form onsubmit="return contactSubmit()">
+<input type="text" id="cname" placeholder="Your Name" required>
+<input type="email" id="cemail" placeholder="Your Email" required>
+<textarea id="cmessage" placeholder="Your Message" required></textarea>
+<button class="btn">Send Message</button>
+</form>
+
+</section>
+
+<footer>
+<div class="footer-grid">
+
+<div>
+<h3>About</h3>
+<p>We provide the best travel experience worldwide.</p>
+</div>
+
+<div>
+<h3>Links</h3>
+<p>Home</p>
+<p>Packages</p>
+<p>Contact</p>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>Email: info@wanderwise.com</p>
+<p>Phone: +91 9876543210</p>
+</div>
+
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
